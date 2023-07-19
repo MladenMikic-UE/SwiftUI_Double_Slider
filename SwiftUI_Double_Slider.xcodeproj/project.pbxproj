@@ -11,6 +11,8 @@
 		B679D8972A67CF2700311273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B679D8962A67CF2700311273 /* ContentView.swift */; };
 		B679D8992A67CF2800311273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B679D8982A67CF2800311273 /* Assets.xcassets */; };
 		B679D89C2A67CF2800311273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B679D89B2A67CF2800311273 /* Preview Assets.xcassets */; };
+		B679D8A32A67CF8A00311273 /* RangeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B679D8A22A67CF8A00311273 /* RangeSliderView.swift */; };
+		B679D8A52A68024800311273 /* RangedSliderView+ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B679D8A42A68024800311273 /* RangedSliderView+ViewConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B679D8962A67CF2700311273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B679D8982A67CF2800311273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B679D89B2A67CF2800311273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B679D8A22A67CF8A00311273 /* RangeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderView.swift; sourceTree = "<group>"; };
+		B679D8A42A68024800311273 /* RangedSliderView+ViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RangedSliderView+ViewConfig.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B679D8942A67CF2700311273 /* SwiftUI_Double_SliderApp.swift */,
 				B679D8962A67CF2700311273 /* ContentView.swift */,
+				B679D8A22A67CF8A00311273 /* RangeSliderView.swift */,
+				B679D8A42A68024800311273 /* RangedSliderView+ViewConfig.swift */,
 				B679D8982A67CF2800311273 /* Assets.xcassets */,
 				B679D89A2A67CF2800311273 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B679D8A32A67CF8A00311273 /* RangeSliderView.swift in Sources */,
+				B679D8A52A68024800311273 /* RangedSliderView+ViewConfig.swift in Sources */,
 				B679D8972A67CF2700311273 /* ContentView.swift in Sources */,
 				B679D8952A67CF2700311273 /* SwiftUI_Double_SliderApp.swift in Sources */,
 			);

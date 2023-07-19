@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var sliderPosition: ClosedRange<Float> = 6...12
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            RangedSliderView(value: $sliderPosition, bounds: 0...24, viewConfig: .init(sliderHeight: 6,
+                                                                                       sliderColor: .blue,
+                                                                                       sliderBackgroundColor: .gray,
+                                                                                       sliderDotBackgroundColor: .white,
+                                                                                       sliderThumbSize: .init(width: 12,
+                                                                                                              height: 12)))
         }
         .padding()
     }
